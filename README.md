@@ -1,12 +1,12 @@
 ### Project Overview
 This project is a challenge given to us in CS585(Image & Video Computing) at BU. The goal of this challenge is to implement a monocular visual odometry pipeline that estimates camera path given the frames of a video and camera calibration parameters. The details about this challenge is described in later sections. 
 
-Description of files in the repo:
-`video_train/images`: This folder contains all the frames of the video
-`video_train/calib.txt`: This file contains the camera calibration parameters
-`video_train/gt_sequence`: This file contains the groundtruth poses of the camera
-`Evaluation.ipynb`: This notebook is used to evaluate the predicted path against the ground truth path
-`Odometry.py`: This file contains the class that can be used to perform monocular visual odometry
+Description of files in the repo:  
+`video_train/images`: This folder contains all the frames of the video  
+`video_train/calib.txt`: This file contains the camera calibration parameters  
+`video_train/gt_sequence`: This file contains the groundtruth poses of the camera  
+`Evaluation.ipynb`: This notebook is used to evaluate the predicted path against the ground truth path  
+`Odometry.py`: This file contains the class that can be used to perform monocular visual odometry  
 
 The result produced by my implementation was ranked top 5 in the class.
 
