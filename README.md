@@ -38,9 +38,9 @@ The code submitted is evaluated on the second video and the resulting error is u
 Here is a sample code that the autograder uses to run the submissions
 
 ```{python}
-    from Odometry import OdemotryClass 
+    from Odometry import OdometryClass 
 
-    test_odometry = OdemotryClass(frame_path)
+    test_odometry = OdometryClass(frame_path)
     path = test_odometry.run()
 ```
 
