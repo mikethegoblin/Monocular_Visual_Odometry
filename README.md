@@ -4,7 +4,7 @@ This project is a challenge given to us in CS585(Image & Video Computing) at BU.
 Description of files in the repo:  
 `video_train/images`: This folder contains all the frames of the video  
 `video_train/calib.txt`: This file contains the camera calibration parameters  
-`video_train/gt_sequence`: This file contains the groundtruth poses of the camera  
+`video_train/gt_sequence.txt`: This file contains the groundtruth poses of the camera  
 `Evaluation.ipynb`: This notebook is used to evaluate the predicted path against the ground truth path  
 `Odometry.py`: This file contains the class that can be used to perform monocular visual odometry  
 
